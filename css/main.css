@@ -1,0 +1,228 @@
+html,body{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #F6FFFF;
+}
+body{
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*--......................................
+         
+         
+                         Header
+         
+         
+          .....................................*/
+
+.clearfix:after{
+    content:'';
+    display: table;
+    width: 100%;
+    clear: both;
+    
+
+
+
+}
+header{
+   background: #343c4e;
+    background-image: url("https://wishdo.files.wordpress.com/2016/02/d180d0b0d0b1d0bed187d0b8d0b9-d181d182d0bed0bb-17251.jpg?w=1400");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    min-height: 400px;
+    color: #FFF;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 930px;
+    margin: 0 auto;
+    
+       
+}
+.logo{
+    margin-top: 41px;
+    float:left;
+    
+}
+nav{
+    float: right;
+    margin-top: 50px;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    display: block;
+    display: block;
+    
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 41px;
+  }
+.menu a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.title__first{
+    color:#fff;
+    font-size: 40px;
+    text-transform:uppercase;
+    text-align: center;
+    margin-top: 180px;
+}
+h1{
+    font-size: 75px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align:center;
+    margin-top: 15px;
+}
+.button{
+    background:#fed136;
+    color:#484543;
+    border-radius:3px;
+    display: block;
+    width: 240px;
+    padding:20px 0;
+    margin:0 auto;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/*--......................................
+         
+         
+                         Portfolio
+         
+         
+          .....................................*/
+.title{
+    padding-top:115px;
+}
+
+.title h2{
+    font-size:40px;
+    font-weight: bold;
+    text-align:center;
+    text-transform:uppercase;
+    margin:0;
+}
+
+.title p{
+    color:#777;
+    text-align: center;
+    font-size:16px;
+    margin-top: 5px;
+}
+.servises{
+    
+   margin-top: 80px; 
+}
+.servises__item{
+    width: 270px;
+    float: left;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.servises__item h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.servises__item p {
+    color: #777;
+    font-size:14px;
+    line-height: 1.6em;
+   }
+.servises__item:last-child{
+    float:right;
+}
+.servises__item:nth-child(2){
+    margin-left:55px;
+}
+.color{
+    background:#f7f7f7;
+}
+
+.disc{
+    float:right;
+    box-sizing:border-box;
+    padding-left: px
+    
+}
+.about__1{
+    align-items: center;
+    text-align: center;
+}
+.about__object{
+    align-items: center;
+    text-align: center;
+    
+}
+.about__object:last-child(2){
+    float:right;
+    
+}
+
+
+.textt{
+    padding-top:80px;
+}
+
+
+/*....................
+
+
+        FOOTER
+
+
+..................*/
+
+
+.footer2{
+    position: relative; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #222; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 98.9%; /* Ширина слоя */
+    margin-top: 300px;
+    text-align: center;
+    height: 90px;
+    
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
